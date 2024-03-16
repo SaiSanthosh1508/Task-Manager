@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: paleturquoise;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#all{
+    background-color: antiquewhite;
+}
+h1{
+    margin: 2rem 0;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+input{
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    max-width: 200px;
+}
+
+ul{
+    margin: 1rem 0;
+    list-style: none;
+}
+
+li{
+    padding: 0.5rem;
+    background-color: lightsalmon;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.button-task:hover{
+    cursor: pointer;
+}
+
+button{
+    margin: 0.5rem;
+    padding: 0.2rem;
+}
+
+.add{
+    padding: 0.8rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    max-width: 100px;
+}
